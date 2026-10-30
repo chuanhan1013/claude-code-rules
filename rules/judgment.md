@@ -124,3 +124,4 @@ smaller model:
 ## Lessons
 <!-- Append per maintenance.md: - YYYY-MM-DD | trigger | rule -->
 - 2026-07-06 | portable repo docs stated this machine's state as fact ("PATH already set", "skill already installed"); broke on migration to another machine | docs that travel (any git repo, shared file) must phrase machine state as per-machine setup steps; state-as-fact belongs only in machine-local files like ~/.claude
+- 2026-10-30 | declared an intermittent (episodic) fault "fixed" several times after short clean windows that were just quiet periods | for episodic faults, only call it fixed after measuring across the known trigger condition (e.g. the workload it appears under) for longer than a typical episode gap, with a metric that isolates the signature from load noise
